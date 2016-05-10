@@ -1,4 +1,4 @@
-.version-5-7-0 {display: none}
+.version-5-8-0 {display: none}
 
 .tile {background-color: grey}
 .weather {background-color: #a20025;}
@@ -32,6 +32,7 @@
 .alarm {background-color: #560319} 
 .tileSeparator {visibility:hidden}
 .ui-sortable .tileSeparator {visibility:visible}
+.tools {background-color: #64dd17} /*Light Green a700*/
 
 .tile {border-radius:2px;color:white}
 .tiles {overflow:hidden}
