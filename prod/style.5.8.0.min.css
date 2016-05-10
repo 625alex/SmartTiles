@@ -32,7 +32,7 @@
 .alarm {background-color: #560319} 
 .tileSeparator {visibility:hidden}
 .ui-sortable .tileSeparator {visibility:visible}
-.tools {background-color: #64dd17} /*Light Green a700*/
+.tools {background-color: #689f38} /*Light Green 700*/
 
 .tile {border-radius:2px;color:white}
 .tiles {overflow:hidden}
@@ -40,7 +40,7 @@
 
 .switch, .dimmer, .dimmerLight, .momentary, .clock, .lock, .refresh, .link, .dashboard, .menu,
 .thermostat .icon.up, .thermostat .icon.down,
-.music i, .themeLight, .camera, .light, .history, .alarm {cursor: pointer;}
+.music i, .themeLight, .camera, .light, .history, .alarm, .tools {cursor: pointer;}
 
 /* reset ***********************/
 body {
