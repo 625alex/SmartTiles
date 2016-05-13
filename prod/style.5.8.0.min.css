@@ -258,7 +258,7 @@ ul{list-style-type: none;padding-left:0;}
 }
 
 
-.toolsList a, .toolsList a:hover, .toolsList a:link , .toolsList a:active, .toolsList a:visited  {
+.toolsList a, .toolsList a:link, .toolsList a:hover, .toolsList a:active, .toolsList a:visited  {
     color: white;
     font-size: 16pt;
     font-weight: normal;
