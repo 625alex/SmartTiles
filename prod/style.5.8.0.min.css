@@ -4,35 +4,35 @@
 .weather {background-color: #a20025;}
 .clock {background-color: #607d8b;}/*blue gray*/
 .presence {background-color: #3f51b5;}/*indigo*/
-.lock {background-color: #f44336;/*red*/}
+.lock, .toolsList li:nth-child(1) {background-color: #f44336;/*red*/}
 .hello-home {background-color: #9c27b0;}/*purple*/
 .switch, .dimmer, .momentary, .light, .dimmerLight, .themeLight {background-color: #4caf50;} /*green*/
-.contact {background-color: #e91e63;}/*pink*/
+.contact, .toolsList li:nth-child(3) {background-color: #e91e63;}/*pink*/
 .refresh {background-color: #607d8b;} /*blue gray*/
 .history {background-color: #395c78;} /*blue gray*/
 .temperature {background-color: #ff6f00;} /*amber 900*/
 .mode {background-color: #673ab7;}/*deep purple*/
 .motion {background-color: #2196f3;}/*blue*/
 .acceleration {background-color: #a3a328;}/*olive*/
-.humidity {background-color: #795548;}/*brown*/
+.humidity, .toolsList li:nth-child(2){background-color: #795548;}/*brown*/
 .luminosity {background-color: #906b8d;}/*violet-blue*/*/
 .link {background-color: #263B44;} /*slate*/
 .thermostat {background-color: #009688} /*teal*/
 .energy {background-color: #558b2f} /*l green 800*/
 .power {background-color: #33691e} /*l green 900*/
 .water {background-color: #006064} /*cyan a900*/
-.music {background-color: #aa00ff} /*purple a700*/
+.music, .list.tools .item.tile[4]{background-color: #aa00ff} /*purple a700*/
 .battery {background-color: #954469} /*eggplant*/
 .camera{background-color: #cddc39} /*lime*/
 .video {background-color:#8E8E8E} /*dropcam grey*/
 .blank.tile{background:none!important}
 .dashboard {background-color: #FE0002;} /* red */
-.thermostatHeat{background-color: #FF9900} /*amber*/
+.thermostatHeat, .toolsList li:nth-child(5){background-color: #FF9900} /*amber*/
 .thermostatCool{background-color: #6600CC} /*violet-blue*/
 .alarm {background-color: #560319} 
 .tileSeparator {visibility:hidden}
 .ui-sortable .tileSeparator {visibility:visible}
-.tools {background-color: #689f38} /*Light Green 700*/
+.tools, .toolsList li:nth-child(4) {background-color: #689f38} /*Light Green 700*/
 
 .tile {border-radius:2px;color:white}
 .tiles {overflow:hidden}
@@ -255,6 +255,14 @@ ul{list-style-type: none;padding-left:0;}
 
 .history-list {
     margin-top: 50px;
+}
+
+
+.toolsList * {
+    color: white;
+    font-size: 16pt;
+    font-weight: normal;
+    text-decoration: none;
 }
 
 /*  THEMES */
